@@ -12,13 +12,36 @@ A React application that displays historical exchange rates between USD and ILS 
 
 1. Clone the repository:
 
-## Environment Variables
+```bash
+git clone <repository-url>
+cd exchange-rate-viewer
+```
 
-Create a `.env` file in the root directory with the following variables:
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Create a `.env` file in the root directory with your API key:
 
 ```env
 VITE_EXCHANGE_API_KEY=your_openexchangerates_api_key
 ```
+
+4. Start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+5. Open your browser and navigate to `http://localhost:5173`
+
+## Environment Variables
 
 | Variable              | Description                      | Required |
 | --------------------- | -------------------------------- | -------- |
